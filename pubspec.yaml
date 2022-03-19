@@ -1,0 +1,183 @@
+name: iconnexz
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  responsive_builder: ^0.4.1
+  getwidget: ^2.0.2
+  image_picker: ^0.7.5+3
+  shared_preferences:
+  video_player:
+  chewie: ^1.2.2
+  font_awesome_flutter: ^9.1.0
+  file_picker: ^4.1.3
+  better_player: ^0.0.73
+  auto_size_text: ^3.0.0-nullsafety.0
+  sizer: ^2.0.13
+  flutter_rating_bar: ^4.0.0
+  google_fonts: ^2.1.0
+  flutter_svg: ^0.22.0
+  one_context: ^1.1.1
+  collapsible_sidebar: ^2.0.0
+  provider: ^5.0.0
+  dropdown_search: ^0.6.3
+  animate_do: ^2.0.0
+  file_selector: ^0.8.2
+  http: ^0.13.3
+  json_annotation: ^4.0.0
+  group_radio_button: ^1.1.0
+  libphonenumber: ^2.0.1
+  intl_phone_field: ^2.0.1
+  dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/images/Iconnexz.png
+    - assets/images/OnlineMall.jpg
+    - assets/images/OnlineMall2.png
+    - assets/images/Banner1.png
+    - assets/images/laptop.jpg
+    - assets/images/Categories/eateries.png
+    - assets/images/Categories/services.png
+    - assets/images/Categories/beauty.png
+    - assets/images/Categories/healthcare.png
+    - assets/images/Categories/education.png
+    - assets/images/Categories/event.png
+    - assets/images/Categories/leisure.png
+    - assets/images/Categories/home.png
+    - assets/images/Categories/finance.png
+    - assets/images/Categories/industry.png
+    - assets/images/Categories/rsvp.png
+    - assets/images/Categories/promotions.png
+    - assets/images/list.png
+    - assets/images/deliver.png
+    - assets/images/money.jpg
+    - assets/images/FAQ.jfif
+    - assets/images/Eateries/food_truck.png
+    - assets/images/Eateries/restaurant.png
+    - assets/images/Eateries/gourmet.png
+    - assets/images/Eateries/beverage.png
+    - assets/images/Eateries/catering.png
+    - assets/images/Eateries/outlet_food.png
+    - assets/images/Eateries/halal cuisine.jpg
+    - assets/images/Eateries/bakery.png
+    - assets/images/Eateries/home_cooking.png
+    - assets/images/Eateries/food_stalls.png
+    - assets/images/Eateries/scenic_place.png
+    - assets/images/Eateries/clubs.png
+    - assets/images/Catering/malaysiafood-removebg-preview.png
+    - assets/images/Catering/finger_food-removebg-preview.png
+    - assets/images/Catering/halal-removebg-preview.png
+    - assets/images/Catering/cultural_food-removebg-preview.png
+    - assets/images/Catering/food_festival-removebg-preview.png
+    - assets/images/Catering/venue_hosting-removebg-preview.png
+    - assets/images/Catering/fusion_food-removebg-preview.png
+    - assets/images/Catering/soup_food-removebg-preview.png
+    - assets/images/Catering/spicy_food-removebg-preview.png
+    - assets/images/Catering/fast_food-removebg-preview.png
+    - assets/images/Catering/healthy_food-removebg-preview.png
+    - assets/images/CulturalFoods/mitasu-removebg-preview.png
+    - assets/images/CulturalFoods/oiso-removebg-preview.png
+    - assets/images/CulturalFoods/AK_Noodle-removebg-preview.png
+    - assets/images/CulturalFoods/uncle_don-removebg-preview.png
+    - assets/images/CulturalFoods/super_saigon-removebg-preview.png
+    - assets/images/CulturalFoods/namaste-removebg-preview.png
+    - assets/images/CulturalFoods/the_brew_house-removebg-preview.png
+    - assets/images/CulturalFoods/the_chicken_rice_shop-removebg-preview.png
+    - assets/images/CulturalFoods/rocku-removebg-preview.png
+    - assets/images/CulturalFoods/nandos-removebg-preview.png
+    - assets/images/CulturalFoods/feifan-removebg-preview.png
+    - assets/images/CulturalFoods/4_fingers-removebg-preview.png
+    - assets/images/pointing.png
+    - assets/images/ChickenRice/1.jpg
+    - assets/images/ChickenRice/2.jpg
+    - assets/images/ChickenRice/3.jfif
+    - assets/images/ChickenRice/4.jpg
+    - assets/images/ChickenRice/5.jpg
+    - assets/images/ChickenRice/6.jpg
+    - assets/images/ChickenRice/7.jpg
+    - assets/images/ChickenRice/8.jpg
+    - assets/images/Flags/China.jpg
+    - assets/images/Flags/Malaysia.png
+    - assets/images/Flags/Pakistan.png
+    - assets/images/Flags/SouthKorea.png
+    - assets/images/Flags/USA.jpg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
